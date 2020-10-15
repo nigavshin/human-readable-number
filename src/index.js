@@ -50,6 +50,7 @@ var tw = [
           sk = 1;
         } else if (n[i] !== 0) {
           str += tw[n[i] - 2] + " ";
+          dg[0] = "";
           sk = 1;
         }
       } else if (n[i] !== 0) {
